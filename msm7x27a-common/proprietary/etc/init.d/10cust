@@ -1,0 +1,4 @@
+#!/system/bin/sh
+
+# Symlink Cust folder
+ln -s /system/cust /data/cust;

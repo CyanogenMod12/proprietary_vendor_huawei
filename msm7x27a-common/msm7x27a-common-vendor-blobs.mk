@@ -34,6 +34,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/msm7x27a-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/huawei/msm7x27a-common/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
     vendor/huawei/msm7x27a-common/proprietary/bin/write_NV_114:system/bin/write_NV_114 \
+    vendor/huawei/msm7x27a-common/proprietary/cust/ons/ons.bin:system/cust/ons/ons.bin \
+    vendor/huawei/msm7x27a-common/proprietary/cust/xml/mccTableParse.xml:system/cust/xml/mccTableParse.xml \
+    vendor/huawei/msm7x27a-common/proprietary/etc/init.d/10cust:system/etc/init.d/10cust \
     vendor/huawei/msm7x27a-common/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/huawei/msm7x27a-common/proprietary/lib/liballjoyn.so:system/lib/liballjoyn.so \
     vendor/huawei/msm7x27a-common/proprietary/lib/libaudcal.so:obj/lib/libaudcal.so \
@@ -177,7 +180,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/msm7x27a-common/proprietary/lib/libzy_imgdenoise.so:system/lib/libzy_imgdenoise.so \
     vendor/huawei/msm7x27a-common/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so
 
-#Adreno Firmware & Libs
+# Adreno Firmware & Libs
 PRODUCT_COPY_FILES += \
     vendor/huawei/msm7x27a-common/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/huawei/msm7x27a-common/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
