@@ -99,4 +99,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/u8833/proprietary/wifi/ath6k/fw-3.bin:system/wifi/ath6k/fw-3.bin \
     vendor/huawei/u8833/proprietary/wifi/ath6k/nullTestFlow.bin:system/wifi/ath6k/nullTestFlow.bin \
     vendor/huawei/u8833/proprietary/wifi/ath6k/softmac:system/wifi/ath6k/softmac \
-    vendor/huawei/u8833/proprietary/wifi/ath6k/utf.bin:system/wifi/ath6k/utf.bin
+    vendor/huawei/u8833/proprietary/wifi/ath6k/utf.bin:system/wifi/ath6k/utf.bin \
+    vendor/huawei/u8951/proprietary/priv-app/OTAUpdates/base.apk:system/priv-app/OTAUpdates/base.apk \
+    vendor/huawei/u8951/proprietary/priv-app/OTAUpdates/lib/arm/libbypass.so:system/priv-app/OTAUpdates/lib/arm/libbypass.so
