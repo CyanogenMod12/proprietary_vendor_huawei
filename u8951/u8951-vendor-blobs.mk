@@ -13,7 +13,3 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-
-PRODUCT_COPY_FILES += \
-    vendor/huawei/u8951/proprietary/priv-app/OTAUpdates/base.apk:system/priv-app/OTAUpdates/base.apk \
-    vendor/huawei/u8951/proprietary/priv-app/OTAUpdates/lib/arm/libbypass.so:system/priv-app/OTAUpdates/lib/arm/libbypass.so
